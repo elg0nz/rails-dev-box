@@ -10,6 +10,18 @@ This project automates the setup of a development environment for working on Rub
 
 * [Vagrant](http://vagrantup.com)
 
+## Requirements Setup with Homebrew
+http://brew.sh/
+
+    host $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+## Setup Vagrant & Virtualbox with Homebrew
+
+    host $ brew install git
+    host $ brew install caskroom/cask/brew-cask
+    host $ brew cask install virtualbox
+    host $ brew cask install vagrant
+
 ## How To Build The Virtual Machine
 
 Building the virtual machine is this easy:
